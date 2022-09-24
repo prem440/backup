@@ -1,0 +1,18 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‡í†²úÿÿÿÿHã	RMAJORZ
+CODE_SMELL
+g
+java:S1854";Remove this useless assignment to local variable "element".(’ÒéÇHä	RMAJORZ
+CODE_SMELL
+a
+java:S1854$"5Remove this useless assignment to local variable "q".(‚‘ãäHå	RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(³·—Hæ	RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¸›…ÿÿÿÿÿHç	RMAJORZ
+CODE_SMELL
+R
+java:S1481#"&Remove this unused "q" local variable.(­ƒû¿Hè	RMINORZ
+CODE_SMELL
+d	java:S106'"9Replace this use of System.out or System.err by a logger.(ûåóˆHé	RMAJORZ
+CODE_SMELL

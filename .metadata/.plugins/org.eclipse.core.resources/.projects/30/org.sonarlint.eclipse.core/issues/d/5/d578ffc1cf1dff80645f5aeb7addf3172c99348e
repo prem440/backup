@@ -1,0 +1,23 @@
+
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.( õŸÇùÿÿÿÿHÎ	RMINORZ
+CODE_SMELL
+_
+java:S3518"7Make sure "b" can't be zero before doing this division.(íÉÌ«HÏ	RCRITICALZBUG
+Y
+java:S1481	"(Remove this unused "one" local variable.(‚ÇüäøÿÿÿÿHÒ	RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(èæ—HÔ	RMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(ß®“ÀøÿÿÿÿHÕ	RINFOZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡ÜHÖ	RMAJORZ
+CODE_SMELL
+V
+java:S1197"*Move the array designators [] to the type.(ş–•òH×	RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Å­ËİúÿÿÿÿHÚ	RMAJORZ
+CODE_SMELL
+\
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHÛ	RMINORZ
+CODE_SMELL

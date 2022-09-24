@@ -1,0 +1,8 @@
+package com.te.addredss;
+
+public class Name {
+String name;
+long mobile_no;
+String email_id;
+
+}

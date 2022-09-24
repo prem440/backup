@@ -1,0 +1,13 @@
+package com.te.collection.Arraylist;
+
+import java.util.Comparator;
+
+public class SortingOnName implements Comparator<ArrayListDemo>{
+
+	@Override
+	public int compare(ArrayListDemo o1, ArrayListDemo o2) {
+	
+		return 0;
+	}
+
+}

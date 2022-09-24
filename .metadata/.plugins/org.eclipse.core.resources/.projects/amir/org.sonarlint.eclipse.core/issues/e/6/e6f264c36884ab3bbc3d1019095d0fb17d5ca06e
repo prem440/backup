@@ -1,0 +1,14 @@
+
+‚	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8âşÚ ¶0Hİ-RMINORZ
+CODE_SMELL
+…	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İí‚Æùÿÿÿÿ8ÒïŸ¶0HÜ-RMINORZ
+CODE_SMELL
+	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8ÒïŸ¶0HÙ-RMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªë·Á8ÒïŸ¶0HÛ-RMINORZ
+CODE_SMELL
+†	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯8ÒïŸ¶0HÚ-RMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8„ö—ª¶0Hí-RMINORZ
+CODE_SMELL

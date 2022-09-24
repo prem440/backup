@@ -1,0 +1,14 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¼ÛÚÂøÿÿÿÿH³RMAJORZ
+CODE_SMELL
+U
+java:S1197	"*Move the array designators [] to the type.(¥¢¸ÍHpRMINORZ
+CODE_SMELL
+]
+java:S1197
+"*Move the array designators [] to the type.(”âÝ€8Ö·îÉ±0HÉRMINORZ
+CODE_SMELL
+Z
+java:S1481
+"'Remove this unused "sd" local variable.(”âÝ€8Ö·îÉ±0HÌRMINORZ
+CODE_SMELL

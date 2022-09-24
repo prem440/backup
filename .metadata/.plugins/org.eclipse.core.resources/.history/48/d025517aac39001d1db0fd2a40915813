@@ -1,0 +1,36 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      <bean name="MySql" class="com.te.Springcore.MySqlDatabase"></bean>
+      <bean name="Oracle" class="com.te.Springcore.Oracle">
+       <bean name ="testApp" class="com.te.Springcore.App">
+      <constructor-arg>
+      <value>1</value>
+      </constructor-arg>
+<constructor-arg>
+      <value>Ajay</value>
+      </constructor-arg>
+      <constructor-arg>
+      <value>15</value>
+      </constructor-arg>
+      <constructor-arg>
+      <ref bean="MySql" ></ref>
+      </constructor-arg>
+       </bean>
+        <bean name ="testApp1" class="com.te.Springcore.App">
+      <constructor-arg>
+      <value>11</value>
+      </constructor-arg>
+<constructor-arg>
+      <value>ajay</value>
+      </constructor-arg>
+      <constructor-arg>
+      <value>185</value>
+      </constructor-arg>
+      <constructor-arg>
+      <ref bean="Oracle" ></ref>
+      </constructor-arg>
+       </bean>
+        </beans>

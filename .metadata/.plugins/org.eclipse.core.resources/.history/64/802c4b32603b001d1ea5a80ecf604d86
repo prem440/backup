@@ -1,0 +1,64 @@
+package com.te.Hibernate;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+
+import org.hibernate.annotations.AnyMetaDef;
+
+@Entity
+public class Employee {
+	@Id
+private int id;
+private String name;
+private String designation;
+private long salary;
+
+public Address getAddres() {
+	return addres;
+}
+public void setAddres(Address addres) {
+	this.addres = addres;
+}
+//@ManyToOne
+//@JoinTable(name="Empadr",joinColumns = @JoinColumn(referencedColumnName = "id"),inverseJoinColumns = @JoinColumn(referencedColumnName ="survey_no" ))
+@OneToOne
+@JoinTable(name="Address")
+Address addres;
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getDesignation() {
+	return designation;
+}
+public void setDesignation(String designation) {
+	this.designation = designation;
+}
+public long getSalary() {
+	return salary;
+}
+public void setSalary(long salary) {
+	this.salary = salary;
+}
+@Override
+public String toString() {
+	return "Employee [id=" + id + ", name=" + name + ", designation=" + designation + ", salary=" + salary + ", addres="
+			+ addres + "]";
+}
+
+
+}
+

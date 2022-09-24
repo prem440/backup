@@ -1,0 +1,5 @@
+package com.te.collection.Arraylist;
+
+public class MyArrayList {
+private Object[] Arrays;
+}

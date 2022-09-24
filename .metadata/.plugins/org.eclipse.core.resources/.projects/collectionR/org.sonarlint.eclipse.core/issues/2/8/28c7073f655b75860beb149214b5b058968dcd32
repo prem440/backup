@@ -1,0 +1,14 @@
+
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óøÄÊHRMINORZ
+CODE_SMELL
+i
+java:S1135	"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8çÚèÕµ0H‰RINFOZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(´úÜ8çÚèÕµ0HŠRMAJORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8çÚèÕµ0H‹RINFOZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'com.te.threads.main'.(Ìåğ°8çÚèÕµ0HŒRMINORZ
+CODE_SMELL

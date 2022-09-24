@@ -1,0 +1,6 @@
+package com.te.packages;
+
+public class smartphone {
+int ram ;
+int cam;
+}

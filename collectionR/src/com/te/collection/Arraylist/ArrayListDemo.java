@@ -1,0 +1,51 @@
+package com.te.collection.Arraylist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+
+		Comparator<Employee> d = new Comparator<Employee>() {
+
+			@Override
+			public int compare(Employee o1, Employee o2) {
+				return o1.getId().compareTo(o2.getId());
+			}
+		};
+		{
+		}
+		;
+
+		ArrayList<Employee> a = new ArrayList();
+		a.add(new Employee(101, "ravi", 34000));
+		a.add(new Employee(210, "sujay", 33000));
+		a.add(new Employee(301, "prakash", 20000));
+		a.add(new Employee(102, "jay", 53000));
+		System.out.println("enter id,name,salary");
+		Scanner s = new Scanner(System.in);
+		String input = s.next();
+		SortingOnName son = new SortingOnName();
+		SortingOnSalary sos = new SortingOnSalary();
+		if (input.equalsIgnoreCase("name")) {
+			Collections.sort(a, son);
+		}
+		if (input.equalsIgnoreCase("salary")) {
+
+			Collections.sort(a, sos);
+		}
+
+		Collections.sort(a);
+		for (Employee u : a) {
+
+			System.out.println(u);
+			Collections.sort(a);
+			
+		}
+		
+	}
+}

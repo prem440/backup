@@ -1,0 +1,17 @@
+package com.te.packages.Object;
+
+public class SString {
+	
+	public static void main(String[] args) {
+		//int a=10;
+		//long a1=10;
+	String a="r";
+	String b="r";
+	SString s=new SString();	
+	//System.out.println(a == a1);
+	boolean v=a.equals(b);
+	System.out.println(v);
+	
+	}
+
+}

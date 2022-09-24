@@ -1,0 +1,11 @@
+package shadowing;
+
+public class demo1 {
+public static void main(String[] args) {
+	shth s1=new shth();
+	s1.a=20;
+	s1.b=20;
+	s1.run();
+	``
+}
+}

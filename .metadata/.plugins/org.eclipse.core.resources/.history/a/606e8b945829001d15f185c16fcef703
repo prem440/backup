@@ -1,0 +1,13 @@
+package com.te.threads;
+
+public class main {
+	public static void main(String[] args) throws InterruptedException {
+		Thread t=new Thread(new t2());
+		
+		Thread t2=new Thread(new t2());
+		t2.start();
+		t.start();
+		t.setPriority(10);
+	}
+
+}

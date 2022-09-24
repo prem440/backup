@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean name="EmpB" class="com.te.Springcore.Assignment.Employee">
+<constructor-arg><value>ravi</value></constructor-arg>
+<constructor-arg><value>64880</value></constructor-arg>
+<constructor-arg><value>78000</value></constructor-arg>
+<constructor-arg><value>pune</value></constructor-arg>
+
+</bean>
+ </beans>

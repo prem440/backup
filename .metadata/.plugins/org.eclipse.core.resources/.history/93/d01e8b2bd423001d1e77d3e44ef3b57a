@@ -1,0 +1,11 @@
+package com.te.encapsulation;
+
+public class demo {
+public static void main(String[] args) {
+	a aa=new a();
+	aa.age=24;
+	aa.id=64880;
+	aa.name="ravi";
+	
+}
+}

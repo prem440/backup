@@ -1,0 +1,27 @@
+package com.te.amir.lifecycleofbean;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Demo implements InitializingBean,DisposableBean {
+public void demo() {
+	System.out.println("from m1 which functionality of class");
+	
+}
+Demo(){
+	System.out.println("from construction");
+}
+@Override
+public void destroy() throws Exception {
+	System.out.println("distruction");
+	
+}
+
+
+@Override
+public void afterPropertiesSet() throws Exception {
+	System.out.println("after initializing bean");
+	
+}
+
+}

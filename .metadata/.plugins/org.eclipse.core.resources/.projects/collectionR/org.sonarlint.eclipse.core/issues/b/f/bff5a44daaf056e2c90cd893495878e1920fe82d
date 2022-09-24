@@ -1,0 +1,30 @@
+
+d	java:S106-"9Replace this use of System.out or System.err by a logger.(Âæ“úHÎ"RMAJORZ
+CODE_SMELL
+Y	java:S108")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿHÏ"RMAJORZ
+CODE_SMELL
+[
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕHĞ"RMINORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(â‰–HÒ"RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ç½åîüÿÿÿÿHÓ"RMAJORZ
+CODE_SMELL
+f
+java:S1854"5Remove this useless assignment to local variable "d".(¬‡•õøÿÿÿÿHÔ"RMAJORZ
+CODE_SMELL
+M
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿHÕ"RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ßè¬H×"RMINORZ
+CODE_SMELL
+Y
+java:S1604"(Make this anonymous inner class a lambda(¬‡•õøÿÿÿÿHØ"RMAJORZ
+CODE_SMELL
+W
+java:S1481"&Remove this unused "d" local variable.(¬‡•õøÿÿÿÿHÙ"RMINORZ
+CODE_SMELL
+^
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿHÛ"RMINORZ
+CODE_SMELL

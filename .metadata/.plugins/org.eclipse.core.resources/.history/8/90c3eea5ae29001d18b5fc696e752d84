@@ -1,0 +1,14 @@
+package com.te.practice;
+
+public class AtoZ {
+	public static void main(String[] args) {
+		
+	
+	
+		int f=10;
+		Integer ff=10;
+		Integer i=f;
+		System.out.println(f ==ff);
+	}
+	}
+

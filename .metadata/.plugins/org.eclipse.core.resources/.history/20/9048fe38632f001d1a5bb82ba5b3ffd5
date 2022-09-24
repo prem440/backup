@@ -1,0 +1,17 @@
+package collectionpractice;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class collek {
+	public static void main(String[] args) {
+
+		ArrayList<Integer> fg = new ArrayList<>();
+		fg.add(12);
+		fg.add(null);
+		System.out.println(fg.size());
+		System.out.println(fg.isEmpty());
+		System.out.println(fg.contains(12));
+	      System.out.println(fg.iterator());
+	}
+}

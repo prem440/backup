@@ -1,0 +1,59 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean name="Emp1" class="com.te.Springcore.Assignment.Employee">
+		<constructor-arg>
+			<value>ravi</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>64880</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>78000</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>pune</value>
+		</constructor-arg>
+
+	</bean>
+	<bean name="Emp2" class="com.te.Springcore.Assignment.Employee">
+		<constructor-arg>
+			<value>hrushi</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>6480</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>8000</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>pune</value>
+		</constructor-arg>
+
+	</bean>
+	<bean name="emp4" class="com.te.Springcore.Assignment.Employee">
+		<property name="name" value="kavita" />
+		<property name="id" value="34345" />
+		<property name="sal" value="87960" />
+		<property name="city" value="nagpur" />
+		
+	 <property  name="addreessofkavita" ref="addres" />
+		
+		</bean>
+
+	<bean name="addres" class="com.te.Springcore.Assignment.Addres">
+		<property name="survey_no" value="598" />
+		<property name="house_name" value="swami niwas" />
+		<property name="pinocode" value="412145" />
+
+
+	</bean>
+	<bean name="addres1" class="com.te.Springcore.Assignment.Addres">
+		<property name="survey_no" value="698" />
+		<property name="house_name" value="vithhal palace" />
+		<property name="pinocode" value="412145" />
+
+
+	</bean>
+</beans>

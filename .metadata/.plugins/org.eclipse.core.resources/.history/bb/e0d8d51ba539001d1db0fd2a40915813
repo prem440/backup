@@ -1,0 +1,13 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean name ="testApp" class="com.te.Springcore.App">
+       <construct-ar>
+       <value>1</value>
+       <value>ravi</value>
+       <value>24</value>
+       </construct-ar>
+       </bean>
+        </beans>

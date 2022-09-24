@@ -1,0 +1,14 @@
+package com.te.practice;
+
+public class AtoZ {
+	public static void main(String[] args) {
+		
+	
+	StringBuffer f=new StringBuffer("ravi");
+
+	String ff="ravi";
+	if(f==ff) {
+		System.out.println("equal");
+	}
+	}
+}

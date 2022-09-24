@@ -1,0 +1,13 @@
+package com.te.methodreferenceStatic;
+
+public class test {
+	public static void test() {
+		System.out.println("h");
+	}
+	public static void main(String[] args) {
+	test t=new test();
+	
+	
+	}
+
+}

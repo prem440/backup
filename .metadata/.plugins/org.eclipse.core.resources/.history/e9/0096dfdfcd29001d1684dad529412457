@@ -1,0 +1,6 @@
+package com.te.methodreference;
+
+public interface tets {
+	
+public static void m1();
+}

@@ -1,0 +1,5 @@
+package com.te.packages.interfacee;
+
+public interface calculator {
+
+}

@@ -1,0 +1,11 @@
+package com.te.collection.Arraylist;
+
+public class sar {
+	{
+		System.out.println("hi");
+	}
+	public static void main(String[] args) {
+		System.out.println("bye");
+	}
+
+}

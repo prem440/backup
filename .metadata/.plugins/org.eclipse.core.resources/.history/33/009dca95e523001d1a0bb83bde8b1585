@@ -1,0 +1,9 @@
+package com.te.abstraction;
+					
+
+public class persian extends dog {
+
+void bark() {
+	System.out.println("meew  meow");
+}
+}

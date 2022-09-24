@@ -1,0 +1,23 @@
+package com.te.homework;
+
+public class suzukiswift extends car {
+
+	@Override
+	public void start() {
+		
+		
+	}
+
+	@Override
+	public void internet() {
+		
+		
+	}
+
+	@Override
+	public void hdr() {
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.te.collection.Arraylist;
+
+public class MyArrayList {
+private Object[] Arrays;
+private int size;
+private int index;
+public static void main(String[] args) {
+	
+MyArrayList mra=new MyArrayList();
+
+mra.Arrays=new Object[10];
+
+}
+}

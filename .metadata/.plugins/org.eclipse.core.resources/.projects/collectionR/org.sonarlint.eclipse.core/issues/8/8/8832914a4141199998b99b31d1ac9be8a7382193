@@ -1,0 +1,64 @@
+
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë¬‰àşÿÿÿÿH—RMINORZ
+CODE_SMELL
+ˆ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ï†ö—H˜RCRITICALZ
+CODE_SMELL
+M
+java:S1170"!Make this final field static too.(šŠ³ìH™RMINORZ
+CODE_SMELL
+q
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ï†ö—HšRMINORZ
+CODE_SMELL
+i	java:S106	"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿHRMAJORZ
+CODE_SMELL
+d	java:S106
+"9Replace this use of System.out or System.err by a logger.(Áß‡ÜHRMAJORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(—æÎĞúÿÿÿÿHŸRMAJORZ
+CODE_SMELL
+Š
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿH¡RMAJORZ
+CODE_SMELL
+e
+java:S1117"4Rename "c" which hides the field declared at line 6.(ª››ıÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿH£RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿH¤RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡ÜH¥RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¯ô¢ôH¦RMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH§RINFOZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿH¨RMAJORZ
+CODE_SMELL
+i	java:S106 "9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿH©RMAJORZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(Áß‡ÜHªRMAJORZ
+CODE_SMELL
+ƒ
+java:S1215$"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“H«RCRITICALZ
+CODE_SMELL
+{
+java:S1874("JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÖÒ˜ÙùÿÿÿÿH¬RMINORZ
+CODE_SMELL
+Y
+java:S1185("(Remove this method to simply inherit it.(ÖÒ˜ÙùÿÿÿÿH­RMINORZ
+CODE_SMELL
+a
+java:S1113("-Do not override the Object.finalize() method.(ÖÒ˜ÙùÿÿÿÿH®RCRITICALZ
+CODE_SMELL
+a
+java:S1874*"0Remove this use of "finalize"; it is deprecated.(¯¶ú“üÿÿÿÿH¯RMINORZ
+CODE_SMELL
+i	java:S106-"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿH°RMAJORZ
+CODE_SMELL
+i	java:S106."9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿH±RMAJORZ
+CODE_SMELL
+d	java:S106/"9Replace this use of System.out or System.err by a logger.(Áß‡ÜH²RMAJORZ
+CODE_SMELL
+d	java:S1060"9Replace this use of System.out or System.err by a logger.(¯ô¢ôH³RMAJORZ
+CODE_SMELL

@@ -1,0 +1,18 @@
+package com.te.anotationconf;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class LaptopConfig {
+	public Laptop getlaptop() {
+		Laptop l=new Laptop();
+		l.setName("paviloun p10");
+		l.setPrice(45000);
+		l.setProcesor("intel i5");
+		l.setRam("12GB");
+		return l;
+	}
+	
+	
+
+}

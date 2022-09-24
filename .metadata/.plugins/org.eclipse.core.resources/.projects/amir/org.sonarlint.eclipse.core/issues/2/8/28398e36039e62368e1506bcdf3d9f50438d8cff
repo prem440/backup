@@ -1,0 +1,10 @@
+
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8é˜¿¥¶0H…0RMINORZ
+CODE_SMELL
+
+java:S1128"IRemove this unused import 'org.springframework.context.annotation.Scope'.(şè®€ÿÿÿÿÿ8ñÂ·§¶0H‡0RMINORZ
+CODE_SMELL
+h
+java:S1874"0Remove this use of "autowire"; it is deprecated.(“©¥×ıÿÿÿÿ8ëšÓ¥¶0H‰0RMINORZ
+CODE_SMELL

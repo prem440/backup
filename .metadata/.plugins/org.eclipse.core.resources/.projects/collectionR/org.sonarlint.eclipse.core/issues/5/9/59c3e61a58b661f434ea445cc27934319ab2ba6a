@@ -1,0 +1,16 @@
+
+…
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ÈÅºœHúRMINORZ
+CODE_SMELL
+^
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿHûRMINORZ
+CODE_SMELL
+r
+java:S1126B"AReplace this if-then-else statement by a single return statement.(óÀ÷—ıÿÿÿÿHıRMINORZ
+CODE_SMELL
+O
+java:S21169"%Use "Arrays.toString(array)" instead.(ö¢íûÿÿÿÿHşRMAJORZBUG
+x
+java:S2272J"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(«ŞÄ•ùÿÿÿÿHÿRMINORZBUG
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ßè¬H€RMINORZ
+CODE_SMELL

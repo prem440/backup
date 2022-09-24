@@ -1,0 +1,35 @@
+package com.te.packages;
+
+public class inhrtc {
+String name;
+int cam;
+String price;
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+
+public int getCam() {
+	return cam;
+}
+
+public void setCam(int cam) {
+	this.cam = cam;
+}
+
+public String getPrice() {
+	return price;
+}
+
+public void setPrice(String price) {
+	this.price = price;
+}
+
+public void info() {
+	System.out.println("my mobile name i");
+}
+}

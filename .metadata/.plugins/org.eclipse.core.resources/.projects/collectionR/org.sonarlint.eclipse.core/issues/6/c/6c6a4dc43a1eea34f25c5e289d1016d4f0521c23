@@ -1,0 +1,16 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÿþ«Ä8õÐ¦Òµ0HÕRMAJORZ
+CODE_SMELL
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(©šŒ•8Ùº¶Òµ0HÙRMAJORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(ëÊÐüÿÿÿÿÿ8”½¾Òµ0HòRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Èú¿É8žž¥Òµ0HÏRMAJORZ
+CODE_SMELL
+j
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8Ùº¶Òµ0HÚRMINORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(§§ð¹H¶RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ8…Á˜Òµ0HËRMAJORZ
+CODE_SMELL

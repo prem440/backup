@@ -1,0 +1,12 @@
+package com.te.abstraction;
+
+public class normal extends cat  {
+
+	@Override
+	void bark() {
+		System.out.println("maw maw ");
+	}
+	
+	
+
+}

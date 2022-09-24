@@ -1,0 +1,6 @@
+package com.te.methodreference;
+@FunctionalInterface
+public interface Tets {
+	
+public  String  m1(String g);
+}

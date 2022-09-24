@@ -1,0 +1,21 @@
+package com.te.SpringCoreAnotation;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Disp1 implements Display {
+
+
+	@Override
+	public void display() {
+		System.out.println("refresh rate is 230hz");
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Disp1 []";
+	}
+	
+
+}

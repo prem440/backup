@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean class="com.te.amir.amir.Amir" name="list">
+<constructor-arg value="kavita" />
+		<constructor-arg value="sonawane" />
+		<constructor-arg value="32" />
+		<constructor-arg ref="phone" />
+</bean>
+<bean>
+       
+</bean>
+</beans>

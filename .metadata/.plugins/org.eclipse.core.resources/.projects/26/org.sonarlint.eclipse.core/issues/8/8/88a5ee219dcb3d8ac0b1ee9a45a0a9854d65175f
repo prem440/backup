@@ -1,0 +1,24 @@
+
+[
+java:S1197"*Move the array designators [] to the type.(¹¡ø¶ÿÿÿÿÿHı	RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ùŒæõúÿÿÿÿH€
+RMAJORZ
+CODE_SMELL
+e
+java:S2696"6Make the enclosing method "static" or remove this set.(ßè•’H
+RCRITICALZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ú”íúH‚
+RMAJORZ
+CODE_SMELL
+d
+java:S2696"6Make the enclosing method "static" or remove this set.(Ï¡~Hƒ
+RCRITICALZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(Ñ©İøH„
+RMAJORZ
+CODE_SMELL
+g	java:S125 "<This block of commented-out lines of code should be removed.(ÙÛç¸H…
+RMAJORZ
+CODE_SMELL

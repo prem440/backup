@@ -1,0 +1,24 @@
+package com.te.Springcore;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class User {
+public static void main(String[] args) {
+	App a=new App();
+	
+a.setAge(43);
+a.setId(13);
+a.setName("kavi");
+
+ApplicationContext d= new ClassPathXmlApplicationContext("Spring.xml");
+App bean = d.getBean(App.class);
+Object bean3=d.getBean("ap");
+App obj1=(App)bean3;
+obj1.setAge(23);
+System.out.println(obj1);
+
+
+
+}
+}

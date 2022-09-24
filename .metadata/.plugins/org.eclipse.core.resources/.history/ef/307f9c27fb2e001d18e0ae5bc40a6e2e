@@ -1,0 +1,17 @@
+package com.te.ktask;
+
+public class ocurence {
+	static int d;
+
+	public static void main(String[] args) {
+		int f[] = { 1, 2, 3, 2, 1, 4, 3 };
+for (int i = 0; i < f.length; i++) {
+	for (int j = i; j < f.length; j++) {
+	if(f[i]==f[j]) {
+		System.out.println("true");
+	}
+	}
+}
+	}
+
+}

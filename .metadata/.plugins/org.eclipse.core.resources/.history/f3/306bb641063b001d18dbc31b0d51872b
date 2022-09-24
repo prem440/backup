@@ -1,0 +1,29 @@
+package com.te.SpringCoreAnotation;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Mobile {
+	@Value("A9")
+private String name;
+	@Value("8")
+private int ram;
+	@Value("samsung")
+private String brand;
+public String getName() {
+	return name;
+}
+public int getRam() {
+	return ram;
+}
+public String getBrand() {
+	return brand;
+}
+@Override
+public String toString() {
+	return "Mobile [name=" + name + ", ram=" + ram + ", brand=" + brand + "]";
+}
+
+
+}

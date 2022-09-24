@@ -1,0 +1,19 @@
+package twofrou;
+
+public class demo {
+	public static void main(String[] args) {
+		first f = new first();
+		f.mname = "a9 2018";
+		f.cam = 4;
+		f.batteryc=4500.0;
+		second s = new second();
+		s.compnyname = "samsung.com";
+		s.price = 38931;
+		f.address =s;
+		System.out.println(f.address.compnyname);
+		System.out.println(f.address.price);
+		System.out.println(f.batteryc);
+		System.out.println(f.mname);
+	}
+
+}

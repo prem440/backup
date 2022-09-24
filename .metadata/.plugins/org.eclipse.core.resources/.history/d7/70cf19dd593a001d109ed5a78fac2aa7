@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.te.amir.amir.Amir" name="list">
+		<property name="name" value="ravi" />
+		<property name="last_name" value="more" />
+		<property name="age" value="35" />
+
+	</bean>
+	<bean class="com.te.amir.amir.Phone" name="phone">
+		<property name="model" value="v20" />
+		<property name="brand" value="vivo" />
+		<property name="price" value="32999" />
+	</bean>
+	<bean class="com.te.amir.amir.Phone" name="phone1">
+		<property name="model" value="v23" />
+		<property name="brand" value="vivo" />
+		<property name="price" value="31459" />
+	</bean>
+
+	<bean class ="com.te.amir.amir.Phone"  name="phone2">
+<property name="model" value="v18" />
+		<property name="brand" value="vivo" />
+		<property name="price" value="32999" />
+		</bean>
+		<bean class ="com.te.amir.amir.Phone"  name="phon3">
+<property name="model" value="v17" />
+		<property name="brand" value="vivo" />
+		<property name="price" value="32999" />
+		</bean>
+</beans>

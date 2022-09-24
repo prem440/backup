@@ -1,0 +1,13 @@
+package com.te.practice;
+
+public class AtoZ {
+	public static void main(String[] args) {
+		
+	
+	String f="ravi";
+	String ff="ravi";
+	if(f ==f) {
+		System.out.println("equal");
+	}
+	}
+}

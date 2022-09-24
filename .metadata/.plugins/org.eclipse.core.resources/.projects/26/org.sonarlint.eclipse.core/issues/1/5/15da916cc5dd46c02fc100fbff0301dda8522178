@@ -1,0 +1,18 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(½áØÄ8°ÆÉ„³0HŸRMAJORZ
+CODE_SMELL
+i	java:S106
+"9Replace this use of System.out or System.err by a logger.(‡í†²úÿÿÿÿH RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(³·—H¡RMAJORZ
+CODE_SMELL
+V
+java:S1197"*Move the array designators [] to the type.(øØ‘¬H¢RMINORZ
+CODE_SMELL
+a
+java:S1854"6Remove this useless assignment to local variable "a1".(Þùœ~H¥RMAJORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðµìŸüÿÿÿÿH¦RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ìëÄÇ8°ÆÉ„³0H§RMAJORZ
+CODE_SMELL

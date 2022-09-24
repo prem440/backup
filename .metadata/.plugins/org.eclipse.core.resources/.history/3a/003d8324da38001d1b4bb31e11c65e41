@@ -1,0 +1,15 @@
+package com.te.defaultandstatic;
+
+public class Demo1 implements Test,AmbigiousTest {
+
+	@Override
+	public void m2() { 
+System.out.println("overriden method");
+		//Test.super.m2();
+		AmbigiousTest.super.m2();
+	}
+public static void main(String[] args) {
+	Demo1 d1=new Demo1();
+	d1.m2(); 
+}
+}

@@ -1,0 +1,10 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹×ֵ‏HֵRMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ֹוױHֶRMAJORZ
+CODE_SMELL
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ז£ֶÿÿÿÿÿHַRMINORZ
+CODE_SMELL
+a
+java:S1611"0Remove the parentheses around the "e1" parameter(ץ‰ֱ÷רÿÿÿÿHָRMINORZ
+CODE_SMELL

@@ -1,0 +1,30 @@
+package com.te.ss;
+
+public class Suplier extends Thread {
+	alcohol a;
+	String name;
+	String brand;
+
+	public Suplier(String name, String brand) {
+		super();
+
+		this.name = name;
+		this.brand = brand;
+	}
+
+	public String GetBrand() {
+		return brand;
+	}
+
+	public void SetBrand(String brand) {
+		this.brand = brand;
+	}
+
+	@Override
+	public void run() {
+		System.out.println("suplier");
+		a.refillStock(brand, 100);
+		super.run();
+	}
+
+}

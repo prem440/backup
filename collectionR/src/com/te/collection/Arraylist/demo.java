@@ -1,0 +1,25 @@
+package com.te.collection.Arraylist;
+
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class demo {
+	public static void main(String[] args) {
+		Map<Integer, String> hashMap = new HashMap<>();
+		hashMap.put(1, "ravi");
+		hashMap.put(2, "raju");
+		hashMap.put(3, "praju");
+		hashMap.put(4, "kaju");
+		hashMap.put(5, "maju");
+		
+		
+		 
+//hashMap.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).forEach(System.out::println);
+	hashMap.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.naturalOrder())).forEach(System.err::println);		
+	
+
+}
+}

@@ -1,0 +1,20 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean name ="testApp" class="com.te.Springcore.App">
+      <constructor-arg>
+      <value>1</value>
+      </constructor-arg>
+<constructor-arg>
+      <value>Ajay</value>
+      </constructor-arg>
+      <constructor-arg>
+      <value>15</value>
+      </constructor-arg>
+      <constructor-arg>
+      <ref bean="Mysql"></ref>
+      </constructor-arg>
+       </bean>
+        </beans>

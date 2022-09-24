@@ -1,0 +1,9 @@
+package com.te.abstraction;
+
+public class demo {
+public static void main(String[] args) {
+	persian p=new persian();
+	p.bark();
+	p.poop();
+}
+}

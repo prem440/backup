@@ -1,0 +1,24 @@
+package com.te.anotationconf;
+
+public class Accesories {
+	private int quantity;
+	private String totalprice;
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public String getTotalprice() {
+		return totalprice;
+	}
+	public void setTotalprice(String totalprice) {
+		this.totalprice = totalprice;
+	}
+	@Override
+	public String toString() {
+		return "accesories [quantity=" + quantity + ", totalprice=" + totalprice + "]";
+	}
+	
+
+}

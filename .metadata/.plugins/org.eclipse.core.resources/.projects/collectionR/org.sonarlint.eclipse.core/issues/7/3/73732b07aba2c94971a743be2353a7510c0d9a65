@@ -1,0 +1,24 @@
+
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Ú“ÜİHŞ'RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ßè¬Hß'RMINORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(ºï™´ùÿÿÿÿHà'RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¯Ó²›üÿÿÿÿHá'RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(·ÅéõùÿÿÿÿHâ'RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(²• »Hã'RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(·»¢Hä'RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(‹¤·ÑHå'RMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(ç¯†ĞÿÿÿÿÿHæ'RMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(ç¯†ĞÿÿÿÿÿHç'RMAJORZ
+CODE_SMELL

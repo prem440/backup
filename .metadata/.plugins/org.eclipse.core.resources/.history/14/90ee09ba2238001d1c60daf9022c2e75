@@ -1,0 +1,18 @@
+package allpract;
+
+import java.util.stream.Stream;
+
+public class basic {
+	public static void main(String[] args) {
+		
+	
+	String a[]= {"ravi", "kavi","navi","savi"};
+	System.out.println(Stream.of(a));
+	}
+
+	@Override
+	public String toString() {
+		return "basic [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+}

@@ -1,0 +1,15 @@
+
+p
+java:S1128"8Remove this unused import 'javax.persistence.ManyToOne'.(ÇÑ²Žøÿÿÿÿ8¾ÖÇÖ¶0H­6RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(žÈÒ”HÃ4RMINORZ
+CODE_SMELL
+t
+java:S1128"ARemove this unused import 'org.hibernate.annotations.AnyMetaDef'.(©¬»º8ä­üÕ¶0H–5RMINORZ
+CODE_SMELL
+j
+java:S1128"8Remove this unused import 'javax.persistence.OneToMany'.(«õù;8ä­üÕ¶0H”5RMINORZ
+CODE_SMELL
+j
+java:S1128	"7Remove this unused import 'javax.persistence.OneToOne'.(Ø½ïâ8Ú†“Ú¶0Hé6RMINORZ
+CODE_SMELL

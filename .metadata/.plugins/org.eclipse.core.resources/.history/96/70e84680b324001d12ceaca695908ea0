@@ -1,0 +1,7 @@
+package com.te.addredss;
+
+public class t {
+int i=123456;
+byte b=(byte)i;
+System.out.println(b);
+}

@@ -1,0 +1,11 @@
+
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(‚¾Ú“üÿÿÿÿ8çø¦Í±0HºRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Ø÷ÅÙ8ˆÔ¢Í±0H©RMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H›RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‚¾Ú“üÿÿÿÿ8»Ú§Í±0H¿RMAJORZ
+CODE_SMELL

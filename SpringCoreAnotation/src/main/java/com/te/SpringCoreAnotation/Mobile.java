@@ -1,0 +1,62 @@
+package com.te.SpringCoreAnotation;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class Mobile {
+	@Value("A9")
+private String name;
+	@Value("8")
+private int ram;
+	@Value("samsung")
+private String brand;
+	@Autowired
+private	Battery btr;
+	@Autowired
+	private Display dsply;
+	
+public String getName() {
+	return name;
+}
+public int getRam() {
+	return ram;
+}
+public Display getDsply() {
+	return dsply;
+}
+public void setDsply(Display dsply) {
+	this.dsply = dsply;
+}
+public String getBrand() {
+	return brand;
+}
+
+public Battery getBtr() {
+	return btr;
+}
+public void setBtr(Battery btr) {
+	this.btr = btr;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+public void setRam(int ram) {
+	this.ram = ram;
+}
+public void setBrand(String brand) {
+	this.brand = brand;
+}
+@Override
+public String toString() {
+	return "Mobile [name=" + name + ", ram=" + ram + ", brand=" + brand + ", btr=" + btr + ", dsply=" + dsply + "]";
+}
+
+}
+
+
+
+

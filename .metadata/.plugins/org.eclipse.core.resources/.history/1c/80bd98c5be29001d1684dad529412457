@@ -1,0 +1,10 @@
+
+public class d {
+public static void main(String[] args) {
+	String d="ravira";
+	String[] f=d.split("r", 2);
+	for (int i = 0; i < f.length; i++) {
+		System.out.println(f[i]);
+	}
+}
+}

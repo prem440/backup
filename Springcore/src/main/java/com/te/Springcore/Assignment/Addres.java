@@ -1,0 +1,48 @@
+package com.te.Springcore.Assignment;
+
+public class Addres {
+	public Addres() {
+		super();
+	}
+
+	public Addres(int survey_no, String house_name, int pincode) {
+		super();
+		this.survey_no = survey_no;
+		this.house_name = house_name;
+		this.pincode = pincode;
+	}
+
+	private int survey_no;
+	private String house_name;
+	private int pincode;
+
+	public int getSurvey_no() {
+		return survey_no;
+	}
+
+	public String getHouse_name() {
+		return house_name;
+	}
+
+	public int getPincode() {
+		return pincode;
+	}
+
+	public void setSurvey_no(int survey_no) {
+		this.survey_no = survey_no;
+	}
+
+	public void setHouse_name(String house_name) {
+		this.house_name = house_name;
+	}
+
+	public void setPincode(int pincode) {
+		this.pincode = pincode;
+	}
+
+	@Override
+	public String toString() {
+		return "Addres [survey_no=" + survey_no + ", house_name=" + house_name + ", pincode=" + pincode + "]";
+	}
+
+}

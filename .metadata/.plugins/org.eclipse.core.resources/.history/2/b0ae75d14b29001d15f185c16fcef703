@@ -1,0 +1,19 @@
+package com.te.threads;
+
+public class t1 extends Thread{
+	@Override
+	public void run() {
+		for (int i = 11; i <=20; i++) {
+			System.out.println(i+"u2"+System.currentTimeMillis());
+		}
+		super.run();
+	}
+	public static void main(String[] args) {
+		Thread t=new t1();
+		t.start();
+		for(int i=0;i<=10;i++) {
+			System.out.println(i+"u1"+System.currentTimeMillis());
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.te.packages.Object;
+
+public class SString {
+	int a=10;
+	long a1=10;
+	public static void main(String[] args) {
+		SString a3=new SString();
+	System.out.println(a3.a == a3.a1);
+	
+	}
+
+}

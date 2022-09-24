@@ -1,0 +1,10 @@
+package com.te.abstraction;
+
+public abstract class dog {
+	abstract void bark();
+	
+	public void poop() {
+		System.out.println("dog are poop");
+	}
+
+}

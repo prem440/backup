@@ -1,0 +1,10 @@
+package inhtrc;
+
+public class demo {
+public static void main(String[] args) {
+	b bb=new b();
+	bb.work();
+	a aa=bb;
+	aa.work();
+}
+}

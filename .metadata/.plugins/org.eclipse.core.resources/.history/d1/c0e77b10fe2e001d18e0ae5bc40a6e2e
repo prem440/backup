@@ -1,0 +1,23 @@
+package com.te.ktask;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+public class ocurence {
+	static int d;
+
+	public static void main(String[] args) {
+		int f[] = { 1, 2, 3, 2, 1, 4, 3 };
+		List<int[]> g=Arrays.asList(f);
+		for (Iterator iterator = g.iterator(); iterator.hasNext();) {
+			int[] is = (int[]) iterator.next();
+			System.out.print(iterator);
+		}
+	
+	}
+		}
+	
+
+

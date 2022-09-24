@@ -1,0 +1,9 @@
+package com.te.douts;
+
+public class Second {
+	int er=null;
+public static void main(String[] args) {
+System.out.println(er);
+}
+
+}

@@ -1,0 +1,12 @@
+
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Úº´HÿRMINORZ
+CODE_SMELL
+W
+java:S2440"&Remove this instantiation of "second".(î—à«şÿÿÿÿH€RMAJORZ
+CODE_SMELL
+a
+java:S2209"5Change this instance-reference to a static reference.(ñóôHRMAJORZ
+CODE_SMELL
+a
+java:S2209"5Change this instance-reference to a static reference.(“å†HƒRMAJORZ
+CODE_SMELL

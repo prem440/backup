@@ -1,0 +1,15 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›œÔúýÿÿÿÿH¾RMINORZ
+CODE_SMELL
+m
+java:S2209	"5Change this instance-reference to a static reference.(ÜæäÏùÿÿÿÿ8ˆùƒ‹³0HÁRMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿH½RMINORZ
+CODE_SMELL
+h
+java:S2209
+"5Change this instance-reference to a static reference.(Œ´Ö¯8·»“Œ³0HéRMAJORZ
+CODE_SMELL
+h
+java:S2209"5Change this instance-reference to a static reference.(×žÌä8·»“Œ³0HëRMAJORZ
+CODE_SMELL

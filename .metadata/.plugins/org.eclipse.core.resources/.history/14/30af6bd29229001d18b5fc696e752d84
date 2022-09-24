@@ -1,0 +1,14 @@
+package com.te.ss;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class alcohol {
+List<String>brand =Arrays.asList("old monk","signature","kingfisher","corona","oak smith gold");
+int quantity =10;
+public synchronized void buy(String name,int noOfBottels) {
+	Boolean GV
+}
+
+
+}

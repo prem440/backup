@@ -1,0 +1,14 @@
+package com.te.practice;
+
+public class AtoZ {
+	public static void main(String[] args) {
+		
+	
+	
+		byte f=20;
+		Integer ff=10;
+		Integer i=Integer.valueOf(f);
+		System.out.println(f == ff);
+	}
+	}
+

@@ -1,0 +1,15 @@
+package com.te.Springcore.Assignment;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Data {
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("Emp.xml");
+		Employee bean = context.getBean("Emp1",Employee.class);
+		System.out.println(bean);
+		Employee bean2 = context.getBean("Emp2",Employee.class);
+		System.out.println(bean2);
+	}
+
+}

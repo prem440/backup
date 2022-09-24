@@ -1,0 +1,9 @@
+package shadowing;
+
+public class shth {
+int a;
+int b;
+void run() {
+	System.out.println("addition of a and is b"+(a+b));
+}
+}

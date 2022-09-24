@@ -1,0 +1,14 @@
+package com.te.ss;
+
+public class test {
+public static void main(String[] args) {
+	alcohol a =new alcohol();
+	Customer john =new Customer(a, "john","kingfisher");
+	Customer balasaheb =new Customer(a, "sagar","signature" );
+	Customer salman =new Customer(a,"vinayak","old-monk");
+	john.start();
+	balasaheb.start();
+	salman.start();
+	
+}
+}

@@ -1,0 +1,33 @@
+
+]
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹HœRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(êÔİûûÿÿÿÿHRMAJORZ
+CODE_SMELL
+[
+java:S1197"*Move the array designators [] to the type.(·¾¶ÏüÿÿÿÿHŸRMINORZ
+CODE_SMELL
+}	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Šü±ŸıÿÿÿÿH¢RMINORZ
+CODE_SMELL
+‘
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ë·´…H£RMAJORZ
+CODE_SMELL
+[
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕH¤RMINORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(Ë·´…H¦RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(´ò™”H§RMAJORZ
+CODE_SMELL
+Y
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îBH¨RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÆşÔşÿÿÿÿHªRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿH«RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ßè¬H¬RMINORZ
+CODE_SMELL
+R
+java:S2201""(The return value of "size" must be used.(èœÚıúÿÿÿÿH­RMAJORZBUG

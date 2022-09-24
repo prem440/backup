@@ -1,0 +1,24 @@
+package com.te.ktask;
+
+public class ocurence {
+	static int d;
+
+	public static void main(String[] args) {
+		int f[] = { 1, 2, 3, 2, 1, 4, 3 };
+		int b[];
+		for (int i = 0; i < f.length; i++) {
+			b=new int[f.length];
+			int a=i+1;
+			System.out.println(a);
+			if(f[i]==a)
+			{
+				b[i]=b[i];
+			}
+		
+		for (int k = 0; k < b.length; k++) {
+			System.out.println(b[i]);
+		}	
+		}
+	} 
+
+}

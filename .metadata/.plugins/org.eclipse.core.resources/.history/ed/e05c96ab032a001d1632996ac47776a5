@@ -1,0 +1,15 @@
+package com.te.methodreferenceStatic;
+
+public class Test {
+	public static String test( String f) {
+		System.out.println("hello");
+		return f;
+	}
+	public static void main(String[] args) {
+	Tet t= Test::test;
+	t.m1("hi");
+	
+	
+	}
+
+}

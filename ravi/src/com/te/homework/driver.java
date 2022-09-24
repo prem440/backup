@@ -1,0 +1,24 @@
+package com.te.homework;
+
+public class driver {
+	car c;
+
+	public void getcar(int car) {
+		if (car == 101) {
+			this.c = new mghector();
+
+		}
+		if(car == 102) {
+			this.c=new suzukiswift();
+			
+		}
+		if(car == 103) {
+			this.c=new tesla();
+			
+		}
+		c.start();
+		c.internet();
+		c.hdr();
+	}
+
+}

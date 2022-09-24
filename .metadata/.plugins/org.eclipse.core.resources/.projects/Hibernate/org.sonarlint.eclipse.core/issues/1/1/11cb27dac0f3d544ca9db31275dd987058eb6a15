@@ -1,0 +1,27 @@
+
+`
+java:S1481"(Remove this unused "adr" local variable.(ô‚¢Âÿÿÿÿÿ8µ¯±Ö¶0H6RMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ÉëÈ 8µ§Ö¶0Hò5RMAJORZ
+CODE_SMELL
+i
+java:S1854"6Remove this useless assignment to local variable "et".(¤§ö”8µ§Ö¶0Hî5RMAJORZ
+CODE_SMELL
+n	java:S125!"<This block of commented-out lines of code should be removed.(ãø°¨8Úö’Ö¶0H5RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈÒ”HÓ4RMINORZ
+CODE_SMELL
+o
+java:S1854"7Remove this useless assignment to local variable "adr".(ô‚¢Âÿÿÿÿÿ8µ¯±Ö¶0Hœ6RMAJORZ
+CODE_SMELL
+Z
+java:S1481"(Remove this unused "emp" local variable.(Äê£=8Úö’Ö¶0Hœ5RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Èóá8µ§Ö¶0Hñ5RMAJORZ
+CODE_SMELL
+i
+java:S1854"7Remove this useless assignment to local variable "emp".(Äê£=8Úö’Ö¶0H›5RMAJORZ
+CODE_SMELL
+Z
+java:S1481"'Remove this unused "et" local variable.(¤§ö”8µ§Ö¶0Hï5RMINORZ
+CODE_SMELL

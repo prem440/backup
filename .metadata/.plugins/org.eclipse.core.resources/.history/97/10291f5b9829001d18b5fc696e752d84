@@ -1,0 +1,41 @@
+package com.te.ss;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+
+public class alcohol {
+	List<String> brand = Arrays.asList("old monk", "signature", "kingfisher", "oak smith gold");
+	int quantity = 10;
+
+	public synchronized void buy(String name, int noOfBottels) {
+		Boolean B = brand.stream().anyMatch(x -> x.equals((String) name));
+		if (B) {
+			System.out.println("here is your heaven" + name);
+			System.out.println("here are your bottles ,Dont drink and drive");
+            quantity =quantity-noOfBottels;
+		}else
+		{
+			System.err.println("wait the stock will be refilled ");
+			try {
+				this.wait();
+				System.out.println("wait the stock will refilled");
+			} catch (InterruptedException e) {
+				
+				e.printStackTrace();
+			}
+		}
+
+	}
+	public  synchronized void refillStock(String name,int quantity) {
+		HashSet<String> hs=new HashSet<>(brand);
+		hs.add(name);
+		ArrayList<String> al=new ArrayList<>(hs);
+		brand=al;
+		this.quantity =this.quantity+quantity;
+		this.notify();
+	}
+	
+
+}

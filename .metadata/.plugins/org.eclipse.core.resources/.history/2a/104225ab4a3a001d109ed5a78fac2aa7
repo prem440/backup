@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean name="anil" class="com.te.amir.amir.Amir" autowire="byType">
+	
+	<property name="name" value="Anil" />
+	<property name="last_name" value="Thapa" />
+	<property name="age" value="24"/>
+	</bean>
+	<bean name="phone" class="com.te.amir.amir.Phone">
+	<property name="model" value="v21" />
+	<property name="brand" value="vivo"/>
+	<property name="price" value="38600" />
+	
+	</bean>
+	</beans>

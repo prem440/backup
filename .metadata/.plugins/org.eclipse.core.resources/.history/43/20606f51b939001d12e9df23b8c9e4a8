@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean name="Emp1" class="com.te.Springcore.Assignment.Employee">
+<constructor-arg><value>ravi</value></constructor-arg>
+<constructor-arg><value>64880</value></constructor-arg>
+<constructor-arg><value>78000</value></constructor-arg>
+<constructor-arg><value>pune</value></constructor-arg>
+
+</bean>
+<bean name="Emp2" class="com.te.Springcore.Assignment.Employee">
+<constructor-arg><value>hrushi</value></constructor-arg>
+<constructor-arg><value>6480</value></constructor-arg>
+<constructor-arg><value>8000</value></constructor-arg>
+<constructor-arg><value>pune</value></constructor-arg>
+
+</bean>
+ </beans>

@@ -1,0 +1,19 @@
+package com.te.methodreference;
+
+public class test {
+public void test() {
+	System.out.println("namskar ! kasa ahes");
+}
+public void demo() {
+	System.out.println("niwant");
+}
+public static void main(String[] args) {
+	test test=new test();
+	tets t=test::test;
+	t.m1();
+	tets t1=test::demo;
+	t1.m1();
+	
+	
+}
+}

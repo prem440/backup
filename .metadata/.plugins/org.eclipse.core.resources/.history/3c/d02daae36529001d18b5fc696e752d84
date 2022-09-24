@@ -1,0 +1,14 @@
+package com.te.corejava;
+
+public class first {
+	public static void main(String[] args) {
+		display();
+	}
+
+	private static void display() {
+		System.out.println("hello bro");
+		
+		
+	}
+
+}

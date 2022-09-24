@@ -1,0 +1,10 @@
+package com.te.Springcore.Assignment;
+
+public class Employee {
+	private String name;
+	private int id;
+	private long sal;
+	private String city;
+	
+
+}

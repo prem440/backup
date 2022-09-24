@@ -1,0 +1,19 @@
+package com.te.amir.amir;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Demo {
+	public static void main(String[] args) {
+		ApplicationContext ap = new ClassPathXmlApplicationContext("anil.xml");
+		Amir bean = ap.getBean("anil", Amir.class);
+		System.out.println(bean);
+		ApplicationContext app = new ClassPathXmlApplicationContext("Amir.xml");
+		Amir beanA = app.getBean("amir", Amir.class);
+		System.out.println(beanA);
+		ApplicationContext appm = new ClassPathXmlApplicationContext("mohit.xml");
+		Amir beanm = appm.getBean(Amir.class);
+		System.out.println(beanm);
+	}
+
+}

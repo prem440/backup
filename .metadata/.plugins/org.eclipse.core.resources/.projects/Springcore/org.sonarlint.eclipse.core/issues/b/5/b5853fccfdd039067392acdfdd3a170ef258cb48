@@ -1,0 +1,23 @@
+
+b
+java:S1135("2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH±.RINFOZ
+CODE_SMELL
+b
+java:S11354"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH².RINFOZ
+CODE_SMELL
+b
+java:S1135D"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH³.RINFOZ
+CODE_SMELL
+b
+java:S1135<"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¯.RINFOZ
+CODE_SMELL
+b
+java:S1135+"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH°.RINFOZ
+CODE_SMELL
+k	java:S106$"9Replace this use of System.out or System.err by a logger.(æ¯Ü™8±±ÀÀ¶0H®/RMAJORZ
+CODE_SMELL
+p
+java:S2147*"DCombine this catch with the one at line 39, which has the same body.(É®£H¬.RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(«Õ‘®úÿÿÿÿ8©²éÀ¶0HØ/RMAJORZ
+CODE_SMELL

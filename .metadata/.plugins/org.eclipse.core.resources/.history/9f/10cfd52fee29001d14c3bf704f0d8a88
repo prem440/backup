@@ -1,0 +1,22 @@
+package com.te.douts;
+
+import java.util.Scanner;
+
+public class Second {
+static int r=0;
+	public static void main(String[] args) {
+	
+	}
+public static void run() {
+	Scanner sc = new Scanner(System.in);
+	int d = sc.nextInt();
+	add(d);
+}
+	private static int add(int d) {
+		r+=d;
+		return r;
+		
+    
+	}
+
+}

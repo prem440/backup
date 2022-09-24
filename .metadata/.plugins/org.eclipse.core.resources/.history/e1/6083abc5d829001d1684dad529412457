@@ -1,0 +1,7 @@
+package com.te.methodreferenceStatic;
+
+public interface tet {
+	public String m1(String a);
+	
+
+}

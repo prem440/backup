@@ -1,0 +1,24 @@
+
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ú§ðñúÿÿÿÿH‘RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¿ù ûøÿÿÿÿH’RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ô²¶¤üÿÿÿÿH“RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(²ŽÁŽüÿÿÿÿH”RMAJORZ
+CODE_SMELL
+V
+java:S1905"*Remove this unnecessary cast to "Integer".(ßŽöÖH•RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(«òˆìH—RMAJORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(ñ½ï¾H˜RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ª‡€›ÿÿÿÿÿHœRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(íê­…HRMAJORZ
+CODE_SMELL
+i	java:S106""9Replace this use of System.out or System.err by a logger.(÷¢ã«ùÿÿÿÿHžRMAJORZ
+CODE_SMELL
+d	java:S106("9Replace this use of System.out or System.err by a logger.(ïˆå±HŸRMAJORZ
+CODE_SMELL

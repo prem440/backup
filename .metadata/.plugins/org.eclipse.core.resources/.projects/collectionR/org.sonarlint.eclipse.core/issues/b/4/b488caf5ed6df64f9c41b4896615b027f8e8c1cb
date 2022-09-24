@@ -1,0 +1,16 @@
+
+[
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿH¦RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿH›RMAJORZ
+CODE_SMELL
+[
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕH¢RMINORZ
+CODE_SMELL
+[
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½ÒþÿÿÿÿH¤RMINORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(£Ý ¯üÿÿÿÿHRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿHœRMAJORZ
+CODE_SMELL

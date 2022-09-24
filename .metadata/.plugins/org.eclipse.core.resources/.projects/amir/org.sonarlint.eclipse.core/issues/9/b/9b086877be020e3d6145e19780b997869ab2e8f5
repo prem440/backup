@@ -1,0 +1,6 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ö¦û–ÿÿÿÿÿ8ïƒª¶0Hğ-RMAJORZ
+CODE_SMELL
+p
+java:S1128"=Remove this unused import 'com.te.amir.lifecycleofbean.Demo'.( ¬‹8ïƒª¶0Hñ-RMINORZ
+CODE_SMELL

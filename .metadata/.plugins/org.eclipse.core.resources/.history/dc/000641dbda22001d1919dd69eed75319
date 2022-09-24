@@ -1,0 +1,27 @@
+package com.te.packages;
+
+public class LargestNo {
+	public static void main(String[] args) {
+		
+	
+	int x=10;
+	int y=20;
+	int z=30;
+	int a=1;
+	int b=3;
+	if(x>y) {
+		System.out.println(x);
+		
+	}
+	else {
+		System.out.println(y);
+	}
+	if(z>a) {
+		System.out.println(z);
+	}
+	else {
+		System.out.println(a);
+	}
+
+	}
+}

@@ -1,0 +1,10 @@
+package com.te.homeworkCE;
+
+abstract public class carr {
+String bike_name;
+String bike_color;
+public abstract void fluel_capacity();
+
+
+
+}

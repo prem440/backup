@@ -1,0 +1,10 @@
+package com.te.homeworkCE;
+
+abstract public class carr {
+public abstract void fluel_capacity();
+public abstract void car clour();
+
+
+
+
+}

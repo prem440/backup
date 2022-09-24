@@ -1,0 +1,14 @@
+package com.te.methodreferenceStatic;
+
+public class test {
+	public static String test() {
+		return "hello";
+	}
+	public static void main(String[] args) {
+	test t=new test();
+	tets t=t::test;
+		
+	
+	}
+
+}

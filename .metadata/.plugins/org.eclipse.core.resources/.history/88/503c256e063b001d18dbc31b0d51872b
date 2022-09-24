@@ -1,0 +1,18 @@
+package com.te.SpringCoreAnotation;
+
+public class Battery {
+	private String name;
+	private String Capacity;
+	public String getName() {
+		return name;
+	}
+	public String getCapacity() {
+		return Capacity;
+	}
+	@Override
+	public String toString() {
+		return "Battery [name=" + name + ", Capacity=" + Capacity + "]";
+	}
+	
+
+}

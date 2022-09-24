@@ -1,0 +1,10 @@
+package com.te.amir.lifecycleofbean;
+
+import com.te.amir.amir.Amir;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	}
+
+}

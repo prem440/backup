@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean name="mohit" class="com.te.amir.amir.Amir" autowire="constructor">
+
+		<constructor-arg value="mohit" />
+		<constructor-arg value="narkhede" />
+		<constructor-arg value="29" />
+		<constructor-arg ref="phone"/>
+	</bean>
+	<bean name="phone" class="com.te.amir.amir.Phone">
+		<constructor-arg value="apple" />
+		<constructor-arg value="s14" />
+		<constructor-arg value="120222" />
+
+
+
+
+	</bean>
+</beans>

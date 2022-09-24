@@ -1,0 +1,23 @@
+package ThreadJoin;
+
+public class Boyfriend {
+public static void main(String[] args) {
+	Girlfriend gf=new Girlfriend();
+	Thread.currentThread().setName("amir");
+	gf.setName("khushi");
+	gf.start();
+	for (int i = 0; i < 6; i++) {
+		System.out.println("hello come soon dear....!!!");
+		try {
+			gf.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("she reached........!!!");
+		System.out.println("they go together restaurant");
+		System.out.println("they will have panipuri");
+		System.out.println("and return back to respective home");
+	}
+}
+}

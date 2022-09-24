@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean class="com.te.Springcore.App">
+        <property name="id">
+        <value>1</value>
+        </property>
+        <property name="name">
+        <value>ravi</value>
+        </property>
+        <property name="age">
+        <value>26</value>
+        </property>
+        </bean>
+         <bean name="ap" class="com.te.Springcore.App">
+        <property name="id">
+        <value>2</value>
+        </property>
+        <property name="name">
+        <value>vijay</value>
+        </property>
+        <property name="age">
+        <value>78</value>
+        </property>
+        </bean>
+         <bean name="app" class="com.te.Springcore.App">
+        <property name="id">
+        <value>3</value>
+        </property>
+        <property name="name">
+        <value>suajy</value>
+        </property>
+        <property name="age">
+        <value>73</value>
+        </property>
+        </bean>
+        <bean name="mySql" class="com.te.Springcore.MySqlDatabase"></bean>
+        <bean name="oracle" class="com.te.Springcore.Oracle"></bean>
+        
+        </beans>

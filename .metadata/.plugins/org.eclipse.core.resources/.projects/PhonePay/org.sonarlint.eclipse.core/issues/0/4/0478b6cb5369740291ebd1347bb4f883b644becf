@@ -1,0 +1,35 @@
+
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö°…¢HÿRMINORZ
+CODE_SMELL
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«úö£ÿÿÿÿÿH€RMINORZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾œ±ÄHRMINORZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÃÍH‚RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤®æ¦HƒRMINORZ
+CODE_SMELL
+	java:S116"QRename this field "upi_Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾™¯ñÿÿÿÿÿH„RMINORZ
+CODE_SMELL
+	java:S116"QRename this field "u_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰•‚şÿÿÿÿH…RMINORZ
+CODE_SMELL
+	java:S116"TRename this field "u_balance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹±•ıH†RMINORZ
+CODE_SMELL
+†	java:S116"VRename this field "u_mobile_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢†Ÿ˜ûÿÿÿÿH‡RMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŞæûÿÿÿÿHˆRMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö°…¢H‰RMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ˆîÆúÿÿÿÿHŠRMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«úö£ÿÿÿÿÿH‹RMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÄôàùÿÿÿÿHŒRMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾œ±ÄHRMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÅ£HRMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÃÍHRMINORZ
+CODE_SMELL

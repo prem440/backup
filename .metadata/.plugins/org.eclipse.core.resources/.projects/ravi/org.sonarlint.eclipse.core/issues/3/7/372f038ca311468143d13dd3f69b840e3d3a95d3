@@ -1,0 +1,75 @@
+
+Š
+java:S6204%"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Á„£™ÿÿÿÿÿ8“›¡ï±0HÂRMAJORZ
+CODE_SMELL
+p	java:S106`"9Replace this use of System.out or System.err by a logger.(Ä÷í¿şÿÿÿÿ8í°ğ‡³0HÃRMAJORZ
+CODE_SMELL
+k	java:S1063"9Replace this use of System.out or System.err by a logger.(¶ÍË¤8¥Üè³0HÄRMAJORZ
+CODE_SMELL
+j	java:S1067"9Replace this use of System.out or System.err by a logger.(ÔŒo8¥Üè³0HÅRMAJORZ
+CODE_SMELL
+g
+java:S1611%"/Remove the parentheses around the "c" parameter(Á„£™ÿÿÿÿÿ8“›¡ï±0HÆRMINORZ
+CODE_SMELL
+g
+java:S1611O"/Remove the parentheses around the "s" parameter(£Ğ¼¾úÿÿÿÿ8ôÏŠ³0HÇRMINORZ
+CODE_SMELL
+p	java:S106^"9Replace this use of System.out or System.err by a logger.(»¨ÿÿÿÿÿ8“›¡ï±0HÈRMAJORZ
+CODE_SMELL
+k	java:S106e"9Replace this use of System.out or System.err by a logger.(‹šÌÛ8èÃˆŠ³0HÉRMAJORZ
+CODE_SMELL
+l	java:S106‹"9Replace this use of System.out or System.err by a logger.(òÿ¦ë8¥Üè³0HÊRMAJORZ
+CODE_SMELL
+k	java:S106g"9Replace this use of System.out or System.err by a logger.(ÕæÛ8í°ğ‡³0HËRMAJORZ
+CODE_SMELL
+[
+java:S21752"*A "List<Contact>" cannot contain a "List".(Ã£»üÿÿÿÿ8¥Üè³0HÌRMAJORZBUG
+b
+java:S1611/"/Remove the parentheses around the "d" parameter(íÏŞá8¥Üè³0HÍRMINORZ
+CODE_SMELL
+k	java:S106<"9Replace this use of System.out or System.err by a logger.(ÄÕÛí8¥Üè³0HÎRMAJORZ
+CODE_SMELL
+p	java:S106F"9Replace this use of System.out or System.err by a logger.(™¬µıÿÿÿÿ8í°ğ‡³0HÏRMAJORZ
+CODE_SMELL
+p	java:S106\"9Replace this use of System.out or System.err by a logger.(êÌ‰Úÿÿÿÿÿ8ÈÈ¡Š³0HĞRMAJORZ
+CODE_SMELL
+a
+java:S1144Z"/Remove this unused private "addcontact" method.(à£­8Ûğ£‹³0HÑRMAJORZ
+CODE_SMELL
+p	java:S106""9Replace this use of System.out or System.err by a logger.(ÏêŒ¨ùÿÿÿÿ8ï²ÁŒ³0HÓRMAJORZ
+CODE_SMELL
+k	java:S106y"9Replace this use of System.out or System.err by a logger.(ÆÀûı8´ÆÚƒ³0HÔRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›œÔúıÿÿÿÿHÕRMINORZ
+CODE_SMELL
+…
+java:S6204/"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(íÏŞá8¥Üè³0HÖRMAJORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8çá§Š³0H×RMINORZ
+CODE_SMELL
+p	java:S106A"9Replace this use of System.out or System.err by a logger.(½ËßÔùÿÿÿÿ8€æªˆ³0HÙRMAJORZ
+CODE_SMELL
+Š
+java:S6204O"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(£Ğ¼¾úÿÿÿÿ8ôÏŠ³0HÚRMAJORZ
+CODE_SMELL
+]	java:S131™""Add a default case to this switch.(Ëš‹¶şÿÿÿÿ8íàò‰³0HÛRCRITICALZ
+CODE_SMELL
+i
+java:S2209…"5Change this instance-reference to a static reference.(ÉšÙ8‚©û‰³0HÜRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(î›î¾8‘Õö±0HŞRMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(€²¢Çüÿÿÿÿ8òİ´‰³0HßRMINORZ
+CODE_SMELL
+k	java:S106-"9Replace this use of System.out or System.err by a logger.(“ÆÛ8™—ñ‰³0HáRMAJORZ
+CODE_SMELL
+p	java:S106("9Replace this use of System.out or System.err by a logger.(Üùâùÿÿÿÿ8¥Üè³0HâRMAJORZ
+CODE_SMELL
+	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(¡È›8¥Üè³0HãRBLOCKERZ
+CODE_SMELL
+q	java:S106“"9Replace this use of System.out or System.err by a logger.(‘©¾ôşÿÿÿÿ8¥Üè³0HäRMAJORZ
+CODE_SMELL
+p	java:S106M"9Replace this use of System.out or System.err by a logger.(ø»Ã’ùÿÿÿÿ8“›¡ï±0HåRMAJORZ
+CODE_SMELL

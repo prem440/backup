@@ -1,0 +1,18 @@
+package com.te.ss;
+
+public class test {
+public static void main(String[] args) {
+	alcohol a =new alcohol();
+	Customer john =new Customer(a, "john","kingfisher");
+	Customer balasaheb =new Customer(a, "sagar","signature" );
+	Customer salman =new Customer(a,"vinayak","corona");
+	john.start();
+	balasaheb.start();
+	salman.start();
+	Suplier dhiraj =new Suplier(a,"dhiraj");
+	dhiraj.SetBrand("100 pipers");
+	a.refillStock("corona", 100);
+	dhiraj.start();
+	
+}
+}

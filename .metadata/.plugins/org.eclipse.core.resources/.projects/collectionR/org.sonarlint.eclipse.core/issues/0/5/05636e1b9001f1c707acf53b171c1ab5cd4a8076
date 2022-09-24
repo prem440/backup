@@ -1,0 +1,30 @@
+
+s	java:S125"<This block of commented-out lines of code should be removed.(şğ˜ñÿÿÿÿÿ8Ïâç±µ0HÜRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ºÒÄşÿÿÿÿ8Îêù±µ0HúRMAJORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(œïãÔ8¸¸æ±µ0HÒRMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎË×œûÿÿÿÿHÂRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ8¸¸æ±µ0HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ8·ëŞ±µ0HÊRMAJORZ
+CODE_SMELL
+\
+java:S1905")Remove this unnecessary cast to "Object".(¦¼â8¸¸æ±µ0HÔRMINORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8·ëŞ±µ0HËRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å¦ĞŠHÃRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Ïò§Ô8¸¸æ±µ0H×RMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(•®°İøÿÿÿÿ8¤ÂŠ²µ0H“RMAJORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ8¤ÂŠ²µ0H”RMINORZ
+CODE_SMELL

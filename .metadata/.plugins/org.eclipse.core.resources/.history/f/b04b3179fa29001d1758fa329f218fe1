@@ -1,0 +1,39 @@
+package com.te.douts;
+
+import java.util.Scanner;
+
+import com.te.he.arrays;
+
+import homework.ArrayReverse;
+
+public class Demo {
+	static Scanner s=new Scanner(System.in);
+	public static void main(String[] args) {
+		Demo d=new Demo();
+		d.acceptInput();
+	}
+
+	private  void acceptInput() {
+		System.out.println("enter the String");
+		String input=s.nextLine();
+		Demo d=new Demo();
+		d.arrayReverse(input);
+		
+	}
+
+	private  void arrayReverse(String input) {
+		String input1=(String) input;
+		for (int i = input.lastIndexOf(input); i < input1.length(); i--) {
+			System.out.println(i);
+			
+			
+		}
+		
+	
+		
+	}
+			
+		
+	}
+
+

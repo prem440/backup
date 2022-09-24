@@ -1,0 +1,46 @@
+package com.te.anotationconf;
+
+public class Laptop {
+	private String name;
+	private String ram;
+	private long price;
+	private String procesor;
+
+	public String getName() {
+		return name;
+	}
+
+	@Override
+	public String toString() {
+		return "laptop [name=" + name + ", ram=" + ram + ", price=" + price + ", procesor=" + procesor + "]";
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getRam() {
+		return ram;
+	}
+
+	public void setRam(String ram) {
+		this.ram = ram;
+	}
+
+	public long getPrice() {
+		return price;
+	}
+
+	public void setPrice(long price) {
+		this.price = price;
+	}
+
+	public String getProcesor() {
+		return procesor;
+	}
+
+	public void setProcesor(String procesor) {
+		this.procesor = procesor;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.te.threads;
+
+public class main {
+	public static void main(String[] args) {
+		Thread t=new Thread(new t2());
+		t.start();
+		Thread t2=new Thread(new t2());
+		t2.start();
+		t2.wait(90);
+	}
+
+}

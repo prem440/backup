@@ -1,0 +1,38 @@
+package com.te.douts;
+
+import java.util.Scanner;
+
+public class Firstff {
+	static Scanner s = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		System.out.println("enter the size of array\n");
+
+		add(s.nextInt());
+
+	}
+
+	private static void add(int nextInt) {
+		int[] d = new int[nextInt];
+		System.out.println("enter the element of array");
+
+		for (int i = 0; i < d.length; i++) {
+
+			d[i] = s.nextInt();
+
+		}
+		System.out.println("array elements are as follow");
+		int f=0;
+		for (int i = 0; i < d.length-1; i++) {
+			
+		
+			
+			
+			f+=d[i];
+			
+
+		}
+		System.out.print(  f);
+	}
+
+}

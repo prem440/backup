@@ -1,0 +1,8 @@
+package com.te.Springcore.Assignment;
+
+public class Addres {
+	private int survey_no;
+	private String house_name;
+	private int pincode;
+	
+}

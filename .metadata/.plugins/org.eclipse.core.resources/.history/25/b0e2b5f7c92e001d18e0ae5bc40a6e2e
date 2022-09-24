@@ -1,0 +1,25 @@
+package com.te.logger;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Test {
+	public static final Logger logger=Logger.getLogger(Test.class.getName());
+	public static void main(String[] args) throws SecurityException, IOException {
+		FileHandler fileh = new FileHandler("C:\\Users\\Admin\\Desktop\\New folder\\logmyfiles.log");
+		fileh.setLevel(Level.SEVERE);
+		MyFormater m=new MyFormater();
+		fileh.setFormatter(m);
+	logger.severe("i am severe");
+	logger.warning("i am warning");
+	logger.config("config");
+	logger.info("i am info");
+	logger.fine("fine");
+	logger.finer("finer");
+	logger.finest("finest:");
+	
+	}
+
+}

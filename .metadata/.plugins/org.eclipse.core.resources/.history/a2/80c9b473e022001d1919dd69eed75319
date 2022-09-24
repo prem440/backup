@@ -1,0 +1,31 @@
+package com.te.packages;
+
+public class LargestNo2 {
+	static int x =0;
+public static void main(String[] args) {
+	int a=10;
+	int b=20;
+	int c=30;
+	int d=67;
+	int e=32;
+	
+	if(a>x && a>b && a>c && a>d && a>e)
+	{
+		x=a;
+	
+	else if(b>x) {
+		x=b;
+	}
+	else if(c>x) {
+		x=c;
+	}
+	else if(d>x)
+	{
+		x=d;
+	}
+	else if(e>x) {
+		x=e;
+	}
+	System.out.println(x);
+}}
+}

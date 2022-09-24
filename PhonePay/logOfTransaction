@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-09-07T19:10:06.928854600Z</date>
+  <millis>1662577806928</millis>
+  <nanos>854600</nanos>
+  <sequence>0</sequence>
+  <logger>com.te.PhonePay</logger>
+  <level>FINE</level>
+  <class>com.te.PhonePay.PhonePay</class>
+  <method>sendmoney</method>
+  <thread>1</thread>
+  <message>the transaction is successfull. you paid to amiramount is500.0</message>
+</record>
+<record>
+  <date>2022-09-07T19:10:06.957838900Z</date>
+  <millis>1662577806957</millis>
+  <nanos>838900</nanos>
+  <sequence>1</sequence>
+  <logger>com.te.PhonePay</logger>
+  <level>FINE</level>
+  <class>com.te.PhonePay.Process</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>program is completed</message>
+</record>
+</log>

@@ -1,0 +1,12 @@
+package com.te.collection.Arraylist;
+
+public class sar extends Thread {
+	public  void run() {
+		System.out.println("r");
+	}
+	public static void main(String[] args) {
+	 	sar a=new sar();
+	 	s.start();
+	}
+
+}
